@@ -1,0 +1,96 @@
+/*FONT FAMILY PRESA DA GOOGLE FONT E BACKGROUND IMMAGINE FORNITA DA BOOLEAN */
+body{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+}
+
+/*BACKGROUND NERO OPACO TRASPARENTE */
+#contenitore{
+    width: 65%;
+    margin: auto;
+    background-color: rgba(1, 1, 1, 0.7);
+    border-radius: 8%;
+    padding-bottom: 220px;
+
+   
+}
+
+/*TITOLO E LOGO */
+header{
+    text-align: center;
+    color: rgba(9, 255, 0, 0.856);
+}
+
+img{
+    margin-top: 3%;
+}
+
+/*BARRA NAVIGATRICE CON BOTTONI*/
+nav{
+    width: 75%;
+    background-color:rgba(9, 255, 0, 0.856);
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+/*CONTENUTO PRINCIPALE*/
+main{
+     color: white;
+     margin-left: 140px;
+                   
+}
+
+h2{
+    display: inline-block;
+    font-size: 28px;
+}
+
+#Gino > div{
+    font-size: 20px;
+}
+
+#Mike{
+    font-size: 20px;
+}
+
+#Fede{
+    font-size: 20px;
+}
+
+#caricamento-gino{
+    background-color: orange;
+    border-radius: 20px;
+    width: 200px;
+    height: 25px;;
+
+}
+
+#caricamento-mike{
+    background-color: green;
+    border-radius: 20px;
+    width: 450px;
+    height: 25px;
+}
+
+#caricamento-fede{
+    background-color: brown;
+    border-radius: 20px;
+    width: 150px;
+    height: 25px;
+
+}
+
+
+
+
+
+
